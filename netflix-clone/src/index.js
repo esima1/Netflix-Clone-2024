@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-
+// require("dotenv").config();
+// const path = require("path");
+// console.log(process.env);
+// const api_key = process.env.API_KEY;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
